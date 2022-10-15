@@ -2,7 +2,8 @@ body{
     position: relative;
     width: 1440px;
     height: 100%;
-
+    
+    top:50%;
     background: #FFFFFF;
     display: flex;
     align-items: center;
