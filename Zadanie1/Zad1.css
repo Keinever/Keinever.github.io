@@ -1,7 +1,7 @@
 body{
     position: relative;
     width: 1440px;
-    height: 2447px;
+    height: 100%;
 
     background: #FFFFFF;
     display: flex;
