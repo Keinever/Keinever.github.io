@@ -1,9 +1,12 @@
 body{
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 100%;
-    
+    margin: 0 auto;
+    max-width: 1440px;
+
     background: #FFFFFF;
+
     display: flex;
     align-items: center;
     align-content: center;
@@ -16,7 +19,7 @@ a{
 header {
     position: absolute;
     width: 100%;
-    height: 566px;
+    height: 100%;
     left: 0;
     top: 26px;
 }
@@ -128,10 +131,12 @@ header {
     color: #AE7C78;
 }
 .info{
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 502px;
+    height: 100%;
     top: 171px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .container2{
@@ -144,7 +149,6 @@ header {
 #autors-bouquets{
     margin-top: 0;
     margin-bottom: 24px;
-    padding-top: 0;
     width: 384px;
     height: 118px;
 
@@ -171,7 +175,7 @@ header {
     color: #AE7C78;
 }
 #flowers{
-    width: 698px;
+    width: 100%;
     height: 420px;
 
     border-radius: 10px;
@@ -218,9 +222,8 @@ header {
 }
 .advantages{
     position: absolute;
-    width: 1200px;
     height: 108px;
-    left: 120px;
+    width: 90%;
     top: 709px;
 }
 #truck{
@@ -330,6 +333,7 @@ header {
     color: #AE7C78;
 }
 .popular1{
+    width:100%;
     position: absolute;
     left: 0;
     top: 84px;
@@ -345,17 +349,17 @@ header {
 }
 .popular{
     position: absolute;
-    width: 794px;
+    width: 80%;
     height: 522px;
-    left: 323px;
     top: 870px;
 }
 #popular-bouquet{
     position: absolute;
     width: 371px;
     height: 48px;
-    left: 217px;
+    left: 50%;
     top: 0;
+    margin-left: -185.5px;
 
     font-family: 'Playfair Display';
     font-style: normal;
@@ -419,6 +423,13 @@ header {
 
     color: #AE7C78;
 }
+.container7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:center;
+}
 #charter{
     width: 73px;
     height: 20px;
@@ -434,40 +445,28 @@ header {
     color: #FFFFFF;
 }
 #img-bouquet{
-    width: 387px;
+    width: 100%;
     height: 438px;
 }
 .discount{
-    position: absolute;
-    width: 1200px;
+    position: relative;
+    width: 90%;
     height: 391px;
-    left: 87px;
+    /*left: 87px;*/
     top: 1486px;
-}
-#rectangle2 {
-    position: absolute;
-    width: 1200px;
-    height: 391px;
-    left: 0;
-    top: 0;
 
     background: #AE7C78;
 }
 #img-discount{
-    position: absolute;
-    width: 590px;
+    width: 100%;
     height: 391px;
-    left: 610px;
-    top: 0;
 
-    border-radius: 0px;
+    border-radius: 0;
 }
 #discount-first{
-    position: absolute;
     width: 488px;
     height: 118px;
-    left: 102px;
-    top: 40px;
+    padding-left: 50px;
 
     font-family: 'Playfair Display';
     font-style: normal;
@@ -479,11 +478,9 @@ header {
     color: #FFFFFF;
 }
 #first-order {
-    position: absolute;
     width: 387px;
     height: 145px;
-    left: 101px;
-    top: 182px;
+    padding-left: 50px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -493,30 +490,36 @@ header {
 
     color: #FFFFFF;
 }
+
 .reviews {
     position: absolute;
-    width: 1200px;
+    width: 90%;
     height: 308px;
-    left: 90px;
+    /*left: 90px;*/
     top: 1970px;
+
 }
-#rectangle3{
+.container8{
+
+}
+.rectangle3{
     box-sizing: border-box;
 
     position: absolute;
-    width: 1200px;
+    width: 100%;
     height: 308px;
     left: 0;
     top: 0;
 
     border: 1px solid #AE7C78;
+
+
 }
 #reviews-text {
-    position: absolute;
     width: 152px;
     height: 48px;
-    left: 524px;
-    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 
     font-family: 'Playfair Display';
     font-style: normal;
@@ -531,11 +534,8 @@ header {
     color: #AE7C78;
 }
 #reviews-1{
-    position: absolute;
     width: 300px;
     height: 80px;
-    left: 44px;
-    top: 129px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -547,11 +547,8 @@ header {
     color: #AE7C78;
 }
 #reviews-2{
-    position: absolute;
     width: 300px;
     height: 80px;
-    left: 450px;
-    top: 129px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -563,11 +560,8 @@ header {
     color: #AE7C78;
 }
 #reviews-3{
-    position: absolute;
     width: 300px;
     height: 80px;
-    left: 856px;
-    top: 129px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -579,11 +573,10 @@ header {
     color: #AE7C78;
 }
 #reviewses-1{
-    position: absolute;
     width: 68px;
     height: 20px;
-    left: 160px;
-    top: 225px;
+    margin-left: auto;
+    margin-right: auto;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -596,11 +589,10 @@ header {
     color: #AE7C78;
 }
 #reviewses-2{
-    position: absolute;
     width: 66px;
     height: 20px;
-    left: 567px;
-    top: 224px;
+    margin-left: auto;
+    margin-right: auto;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -613,11 +605,10 @@ header {
     color: #AE7C78;
 }
 #reviewses-3{
-    position: absolute;
     width: 50px;
     height: 20px;
-    left: 981px;
-    top: 224px;
+    margin-left: auto;
+    margin-right: auto;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -633,7 +624,7 @@ footer{
     position: absolute;
     width: 100%;
     height: 97px;
-    left: 0px;
+    left: 0;
     top: 2350.22px;
 
     background: #AE7C78;
