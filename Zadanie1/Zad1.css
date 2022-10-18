@@ -205,9 +205,16 @@ header {
     justify-content: space-evenly;
     align-items: flex-start;
 }
+
 .advantages{
     width: 90%;
     margin-top: 117px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 #truck{
     width: 82px;
