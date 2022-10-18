@@ -1,34 +1,29 @@
 body{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     max-width: 1440px;
 
     background: #FFFFFF;
-
+}
+.container0{
     display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    align-content: center;
-    justify-content: center;
-    overflow: auto;
+    align-content: space-between;
 }
 a{
     text-decoration: none;
 }
 header {
-    position: absolute;
     width: 100%;
-    height: 100%;
-    left: 0;
-    top: 26px;
 }
 .nav{
-    position: absolute;
     width: 100%;
-    height: 90px;
-    left: 0;
-    top: 26px;
+    min-height: 90px;
 
     border-bottom: 1px solid #AE7C78;
     border-top: 1px solid #AE7C78;
@@ -36,7 +31,7 @@ header {
 .container1 {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items:center;
 }
@@ -131,20 +126,11 @@ header {
     color: #AE7C78;
 }
 .info{
-    position: absolute;
     width: 100%;
-    height: 100%;
-    top: 171px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 81px;
 
-}
-.container2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
 }
 #autors-bouquets{
     margin-top: 0;
@@ -206,13 +192,6 @@ header {
 
     color: #FFFFFF;
 }
-.container3{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items:flex-start;
-}
 .container4{
     display: flex;
     flex-direction: row;
@@ -221,10 +200,8 @@ header {
     align-items: flex-start;
 }
 .advantages{
-    position: absolute;
-    height: 108px;
     width: 90%;
-    top: 709px;
+    margin-top: 117px;
 }
 #truck{
     width: 82px;
@@ -332,34 +309,23 @@ header {
 
     color: #AE7C78;
 }
-.popular1{
-    width:100%;
-    position: absolute;
-    left: 0;
-    top: 84px;
-}
 .container5{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
 
 
 }
 .popular{
-    position: absolute;
     width: 80%;
-    height: 522px;
-    top: 870px;
+    margin-top: 53px;
 }
 #popular-bouquet{
-    position: absolute;
     width: 371px;
     height: 48px;
-    left: 50%;
-    top: 0;
-    margin-left: -185.5px;
+
 
     font-family: 'Playfair Display';
     font-style: normal;
@@ -424,11 +390,13 @@ header {
     color: #AE7C78;
 }
 .container7{
-    display: flex;
+    display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*align-content:center;*/
+    /*align-items: center;*/
+
 }
 #charter{
     width: 73px;
@@ -449,10 +417,8 @@ header {
     height: 438px;
 }
 .discount{
-    position: relative;
     width: 90%;
-    height: 391px;
-    top: 1486px;
+    margin-top: 94px;
 
     background: #AE7C78;
 }
@@ -463,9 +429,9 @@ header {
     border-radius: 0;
 }
 #discount-first{
+    display: inline-block;
     width: 488px;
-    height: 118px;
-    padding-left: 50px;
+    flex-wrap: wrap;
 
     font-family: 'Playfair Display';
     font-style: normal;
@@ -478,8 +444,6 @@ header {
 }
 #first-order {
     width: 387px;
-    height: 145px;
-    padding-left: 50px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -491,24 +455,13 @@ header {
 }
 
 .reviews {
-    position: absolute;
     width: 90%;
-    height: 308px;
-    /*left: 90px;*/
-    top: 1970px;
-
-}
-.container8{
-
+    margin-top: 93px;
 }
 .rectangle3{
     box-sizing: border-box;
 
-    position: absolute;
     width: 100%;
-    height: 308px;
-    left: 0;
-    top: 0;
 
     border: 1px solid #AE7C78;
 
@@ -620,11 +573,9 @@ header {
     color: #AE7C78;
 }
 footer{
-    position: absolute;
     width: 100%;
-    height: 97px;
-    left: 0;
-    top: 2350.22px;
+    margin-top: 72.2px;
+    min-height: 90px;
 
     background: #AE7C78;
 }
