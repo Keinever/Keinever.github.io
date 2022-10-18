@@ -208,6 +208,12 @@ header {
 .advantages{
     width: 90%;
     margin-top: 117px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
 }
 #truck{
     width: 82px;
