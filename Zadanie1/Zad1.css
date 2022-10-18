@@ -167,7 +167,7 @@ header {
     border-radius: 10px;
 }
 .rectangle{
-    margin-top: 0;
+    margin-bottom: 20px;
     width: 285px;
     height: 80px;
 
@@ -394,8 +394,8 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*align-content:center;*/
-    /*align-items: center;*/
+    align-content:center;
+    align-items: center;
 
 }
 #charter{
