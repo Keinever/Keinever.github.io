@@ -35,6 +35,12 @@ header {
     justify-content: space-evenly;
     align-items:center;
 }
+.container1 .advantages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 #catalog{
     width: 66px;
