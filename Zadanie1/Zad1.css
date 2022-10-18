@@ -204,6 +204,7 @@ header {
     margin-top: 117px;
 }
 #truck{
+    margin-top: 0;
     width: 82px;
     height: 52px;
 }
@@ -239,6 +240,7 @@ header {
     color: #AE7C78;
 }
 #bouquet{
+    margin-top: 0;
     width: 52px;
     height: 52px;
 }
@@ -274,6 +276,7 @@ header {
     color: #AE7C78;
 }
 #camera{
+    margin-top: 0;
     width: 58.6px;
     height: 52px;
 }
