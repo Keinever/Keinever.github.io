@@ -28,24 +28,20 @@ header {
     border-bottom: 1px solid #AE7C78;
     border-top: 1px solid #AE7C78;
 }
+.container11{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
 .container1 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items:center;
-}
-.container11 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items:center;
 }
 #catalog{
-    width: 66px;
-    height: 20px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -58,9 +54,6 @@ header {
     color: #AE7C78;
 }
 #order{
-    width: 154px;
-    height: 20px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -72,9 +65,6 @@ header {
     color: #AE7C78;
 }
 #reviews{
-    width: 65px;
-    height: 20px;
-
     font-family:'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -87,9 +77,6 @@ header {
     color: #AE7C78;
 }
 #special-offers{
-    width: 160px;
-     height: 20px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -102,9 +89,6 @@ header {
     color: #AE7C78;
 }
 #contacts {
-    width: 78px;
-    height: 20px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -117,9 +101,6 @@ header {
     color: #AE7C78;
 }
 #basket{
-    width: 72px;
-    height: 20px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -141,8 +122,6 @@ header {
 #autors-bouquets{
     margin-top: 0;
     margin-bottom: 24px;
-    width: 384px;
-    height: 118px;
 
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
@@ -155,8 +134,6 @@ header {
 #original-bouquets{
     margin-top: 0;
     margin-bottom: 64px;
-    width: 384px;
-    height: 58px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -168,13 +145,13 @@ header {
 }
 #flowers{
     width: 100%;
-    height: 420px;
+    height: auto;
+    margin-left: 50px;
 
     border-radius: 10px;
 }
 .rectangle{
     margin-bottom: 20px;
-    width: 285px;
     height: 80px;
 
     background: #D89999;
@@ -185,8 +162,6 @@ header {
     align-items:center;
 }
 #view-catalog{
-    width: 146px;
-    height: 20px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -194,6 +169,7 @@ header {
     font-size: 15px;
     line-height: 20px;
     /* identical to box height */
+    text-align: center;
 
 
     color: #FFFFFF;
@@ -216,16 +192,11 @@ header {
     justify-content: space-evenly;
     align-items: flex-start;
 }
-#truck{
-    width: 82px;
-    height: 52px;
-}
+
 #fast-delivery {
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
-    width: 152px;
-    height: 20px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -240,8 +211,6 @@ header {
 #collect-bouquet {
     margin-left: 20px;
     margin-top: 8px;
-    width: 285px;
-    height: 40px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -251,16 +220,11 @@ header {
 
     color: #AE7C78;
 }
-#bouquet{
-    width: 52px;
-    height: 52px;
-}
+
 #fresh-flowers{
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
-    width: 182px;
-    height: 20px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -275,8 +239,6 @@ header {
 #state-flowers{
     margin-left: 20px;
     margin-top: 8px;
-    width: 285px;
-    height: 80px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -286,16 +248,11 @@ header {
 
     color: #AE7C78;
 }
-#camera{
-    width: 58.6px;
-    height: 52px;
-}
+
 #send-photo{
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
-    width: 213px;
-    height: 20px;
 
 
     font-family: 'Montserrat';
@@ -311,8 +268,6 @@ header {
 #before-delivery{
     margin-left: 20px;
     margin-top: 8px;
-    width: 285px;
-    height: 60px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -325,19 +280,15 @@ header {
 .container5{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: flex-start;
-
-
 }
 .popular{
     width: 80%;
     margin-top: 53px;
 }
 #popular-bouquet{
-    width: 371px;
-    height: 48px;
 
 
     font-family: 'Playfair Display';
@@ -352,8 +303,6 @@ header {
     color: #AE7C78;
 }
 #bouquet-tenderness{
-    width: 228px;
-    height: 29px;
 
 
     font-family: 'Montserrat';
@@ -365,8 +314,6 @@ header {
     color: #AE7C78;
 }
 #elegant-bouquet{
-    width: 387px;
-    height: 40px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -377,8 +324,6 @@ header {
     color: #AE7C78;
 }
 #size{
-    width: 85px;
-    height: 20px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -391,8 +336,6 @@ header {
     color: #AE7C78;
 }
 #price{
-    width: 118px;
-    height: 29px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -405,15 +348,13 @@ header {
 .container7{
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content:center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
     align-items: center;
 
 }
 #charter{
-    width: 73px;
-    height: 20px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -427,7 +368,7 @@ header {
 }
 #img-bouquet{
     width: 100%;
-    height: 438px;
+    height: auto;
 }
 
 .discount{
@@ -437,8 +378,8 @@ header {
     background: #AE7C78;
 }
 #img-discount{
-    width: 100%;
     height: 391px;
+    aspect-ratio: auto 1180 / 782;
 
     border-radius: 0;
 }
@@ -457,6 +398,7 @@ header {
 }
 #first-order {
     width: 100%;
+    wrap-option: wrap;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -481,10 +423,6 @@ header {
 
 }
 #reviews-text {
-    width: 152px;
-    height: 48px;
-    margin-left: auto;
-    margin-right: auto;
 
     font-family: 'Playfair Display';
     font-style: normal;
@@ -499,8 +437,7 @@ header {
     color: #AE7C78;
 }
 #reviews-1{
-    width: 300px;
-    height: 80px;
+    wrap-option: wrap;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -512,8 +449,6 @@ header {
     color: #AE7C78;
 }
 #reviews-2{
-    width: 300px;
-    height: 80px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -525,8 +460,6 @@ header {
     color: #AE7C78;
 }
 #reviews-3{
-    width: 300px;
-    height: 80px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -538,8 +471,6 @@ header {
     color: #AE7C78;
 }
 #reviewses-1{
-    width: 68px;
-    height: 20px;
     margin-left: auto;
     margin-right: auto;
 
@@ -548,14 +479,13 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
     /* identical to box height */
 
 
     color: #AE7C78;
 }
 #reviewses-2{
-    width: 66px;
-    height: 20px;
     margin-left: auto;
     margin-right: auto;
 
@@ -564,14 +494,13 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
     /* identical to box height */
 
 
     color: #AE7C78;
 }
 #reviewses-3{
-    width: 50px;
-    height: 20px;
     margin-left: auto;
     margin-right: auto;
 
@@ -580,6 +509,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
     /* identical to box height */
 
 
