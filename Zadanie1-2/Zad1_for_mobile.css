@@ -26,6 +26,7 @@
     margin-top: 0;
     margin-bottom: 24px;
     word-wrap: normal;
+    text-align: center;
 
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
@@ -39,6 +40,7 @@
     margin-top: 0;
     margin-bottom: 64px;
     word-wrap: normal;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -65,6 +67,7 @@
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -79,6 +82,7 @@
 #collect-bouquet {
     margin-left: 20px;
     margin-top: 8px;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -93,6 +97,7 @@
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -107,6 +112,7 @@
 #state-flowers{
     margin-left: 20px;
     margin-top: 8px;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -121,6 +127,7 @@
     margin-left: 20px;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 
 
     font-family: 'Montserrat';
@@ -136,6 +143,7 @@
 #before-delivery{
     margin-left: 20px;
     margin-top: 8px;
+    text-align: center;
 
     font-family: 'Montserrat';
     font-style: normal;
