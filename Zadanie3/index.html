@@ -5,9 +5,21 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Zad3.css">
+    <script src="Zad3.js"></script>
+    <title>table</title>
 </head>
 <body>
+    <div class="buttons">
+        <input id="create" value="Создать таблицу" onclick="crate_table()" type="button">
+        <input id="add" value="Добавить строку" onclick="create_row(tbody)" type="button" disabled>
+        <form id="form1">
+            <input id="del" value="Удалить строку" onclick="del_row(tbody)" type="reset" disabled>
+            <label for="number"><input name="number" id="number" type="text" placeholder="Введите номер" pattern="^[ 0-9]+$" disabled></label>
+        </form>
+    </div>
+    <div id="table0">
+    </div>
 
 </body>
 </html>
