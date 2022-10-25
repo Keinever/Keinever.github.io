@@ -57,6 +57,7 @@ function create_row(parent){
     let row = document.createElement('tr');
     let row_data_1 = document.createElement('td');
     row_data_1.innerHTML = row_number;
+    row_data_1.id = "number-"+row_number;
     let row_data_2 = document.createElement('td');
     row_data_2.innerHTML = DATA[Math.floor(Math.random()*51529)]["Name"];
     let row_data_3 = document.createElement('td');
@@ -73,10 +74,19 @@ function create_row(parent){
 function del_row (parent) {
     const form = document.getElementById("form1");
     const formData = new FormData(form);
-    const id = formData.get("number");
+    let id = formData.get("number");
     if (document.getElementById(id)){
         const row = document.getElementById(id);
         parent.removeChild(row);
+        row_number = row_number-1;
+        id++;
+        for(let i=id;i<=row_number;i++){
+            let elem = document.getElementById("number-"+i);
+            elem.innerHTML = i-1;
+            elem.id = "number-"+(i-1);
+            let row = document.getElementById(i);
+            row.id = i-1;
+        }
     }
     else alert("Введите номер строки коректно!");
 }
