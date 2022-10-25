@@ -76,8 +76,8 @@ function del_row (parent) {
     const formData = new FormData(form);
     let id = formData.get("number");
     if (document.getElementById(id)){
-        const row = document.getElementById(id);
-        parent.removeChild(row);
+        const rowdel = document.getElementById(id);
+        parent.removeChild(rowdel);
         row_number = row_number-1;
         id++;
         for(let i=id;i<=row_number;i++){
