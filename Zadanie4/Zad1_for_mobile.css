@@ -1,0 +1,284 @@
+.container11{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#reviews-text{
+    font-size: 10px;
+}
+#img-discount{
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto 1180 / 782;
+
+    border-radius: 0;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#autors-bouquets{
+    margin-top: 0;
+    margin-bottom: 24px;
+    word-wrap: normal;
+    text-align: center;
+
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+#original-bouquets{
+    margin-top: 0;
+    margin-bottom: 64px;
+    word-wrap: normal;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+#popular-bouquet{
+
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: normal;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #AE7C78;
+}#fast-delivery {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: normal;
+    /* identical to box height */
+
+
+    color: #AE7C78;
+}
+#collect-bouquet {
+    margin-left: 20px;
+    margin-top: 8px;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+
+#fresh-flowers{
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: normal;
+    /* identical to box height */
+
+
+    color: #AE7C78;
+}
+#state-flowers{
+    margin-left: 20px;
+    margin-top: 8px;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+
+#send-photo{
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: normal;
+    /* identical to box height */
+
+
+    color: #AE7C78;
+}
+#before-delivery{
+    margin-left: 20px;
+    margin-top: 8px;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#img-bouquet{
+    width: 100%;
+    height: auto;
+}
+#popular-bouquet{
+
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 48px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #AE7C78;
+}
+#bouquet-tenderness{
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+#elegant-bouquet{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+#size{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+
+
+    color: #AE7C78;
+}
+#price{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
+
+    color: #AE7C78;
+}
+#catalog{
+    font-size: 1em;
+    text-align: center;
+}
+#order {
+    font-size: 1em;
+    text-align: center;
+}
+#reviews{
+    font-size: 1em;
+    text-align: center;
+}
+#special-offers{
+    font-size: 1em;
+    text-align: center;
+}
+#contacts {
+    font-size: 1em;
+    text-align: center;
+}
+#basket{
+    font-size: 1em;
+    text-align: center;
+}
+#catalog1{
+    font-size: 1em;
+    text-align: center;
+}
+#order1{
+    font-size: 1em;
+    text-align: center;
+}
+#reviews1{
+    font-size: 1em;
+    text-align: center;
+}
+#special-offers1{
+    font-size: 1em;
+    text-align: center;
+}
+#contacts1{
+    font-size: 1em;
+    text-align: center;
+}
+#reviews-1{
+    font-size: 1em;
+}
+#reviews-2{
+    font-size: 1em;
+}
+#reviews-3 {
+    font-size: 1em;
+}
+#reviewses-1{
+    font-size: 1em;
+}
+#reviewses-2{
+    font-size: 1em;
+}
+#reviewses-3{
+    font-size: 1em;
+}
